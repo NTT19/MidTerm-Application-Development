@@ -2,8 +2,10 @@
 using Microsoft.EntityFrameworkCore;
 using MidTerm.Entity;
 using MidTerm.ViewModel;
+using System.Collections.Generic;
 namespace MidTerm.Controllers
 {
+
     public class Cau1Controller : Controller
     {
         private readonly QlbanHangContext _context;
@@ -50,7 +52,7 @@ namespace MidTerm.Controllers
         }
 
 
-        [HttpGet]
+        [HttpGet("view")]
         public IActionResult View()
         {
             var data = _context.SanPhams != null ? _context.SanPhams.ToList() : new List<SanPham>();

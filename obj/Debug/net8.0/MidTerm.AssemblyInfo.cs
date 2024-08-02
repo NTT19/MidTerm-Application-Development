@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MidTerm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee2aebf32a9f1fa27bc65e9f0057d9e73499cf33")]
 [assembly: System.Reflection.AssemblyProductAttribute("MidTerm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MidTerm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
