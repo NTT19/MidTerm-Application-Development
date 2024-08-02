@@ -56,7 +56,5 @@ namespace MidTerm.Controllers
             var data = _context.SanPhams != null ? _context.SanPhams.ToList() : new List<SanPham>();
             return View(data);
         }
-
-
     }
 }
